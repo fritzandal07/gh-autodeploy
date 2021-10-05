@@ -53,4 +53,4 @@ jobs:
         
       # Deploy to Server
       - name: Deploy to Server with rsync
-        run: rsync -avz ./dist/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/ba.racoma/gh-autodeploy/dist/
+        run: rsync -avz ./dist/gh-autodeploy/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/ba.racoma/gh-autodeploy/
