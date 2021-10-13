@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       AWS_S3_BUCKET_NAME: fritzstatic.com
-      AWS_CF_DISTRIBUTION_ID: E2AAESRCMO8F37
+      AWS_CF_DISTRIBUTION_ID: E23WU30D1KMNB7
     # Here we are configuring build matrix that allows you to perform certain operations on your code
     # with different software/Operating system configurations.
     # In our case, we are only running it for Node v12.*. but you can multiple entries in that array.
